@@ -26,7 +26,14 @@ function($, React, monlift, auth, buttons){
 						case 'register':
 							ButtonRight = buttons.LoginButton;
 							break;
-					
+					        
+					        case 'Decline':
+							ButtonRight = buttons.DeclineButton;
+							break;
+						
+						case 'Accept':
+							Buttonleft =  buttons.AcceptButton;
+							break;
 						
 						default:
 							ButtonRight = ML.isUserLoggedIn()?buttons.LogoutButton:buttons.LoginButton;
