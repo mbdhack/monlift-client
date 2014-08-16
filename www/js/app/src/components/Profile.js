@@ -77,6 +77,63 @@ define(['jquery', 'react', 'app/monlift', 'components/buttons'], function($, Rea
                }
                 
           })
+       
+       
+        RequestPage: React.createClass({displayName:'RequestPage',
+                	render: function(){
+						
+               
+                	        return (    <div class="containe">
+
+
+                                                <div class="user_profil">
+                                                
+                                                </div>
+                                                
+                                            <div class= "traject">
+                                            
+                                            
+                                            </div>
+                                            
+                                            
+                                            
+                                            <div class= "Passanger">
+                                            
+                                             </div>
+                                             
+                                             
+                                             
+                                            <div class= "note">
+                                            
+                                            
+                                            </div>
+                                            
+                                            
+                                            <div class= "Depart">
+                                            
+                                            </div>
+                                            
+                                            
+                                            <div class= "Arrivee">
+                                            
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                        
+    
+
+      
+                                 );
+                                                
+                         }
+                
+               });
+               
+       
+  
+       
+       
                    
       }
 
