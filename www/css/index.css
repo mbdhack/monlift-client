@@ -220,3 +220,27 @@ border-radius: 15px;
 }
 
 
+/**********************************
+ *   Request Page             *
+ **********************************/
+
+
+.containe {
+  height: 400px;
+  width: 400px;
+  background: #eee;
+  margin-top: 100px;
+  margin-left: 40px;
+  position: relative;
+  border-radius: 3px;
+
+}
+ 
+.user_profil {
+  height: 100px;
+  width: 100px;
+  background:blue;
+  position: absolute;
+  border-radius: 3px;
+
+}
